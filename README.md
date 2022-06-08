@@ -6,3 +6,8 @@
 2. Smart contracts are programs that run if you need to perform some action if it is initiated. The conditions for the execution of smart contracts can be unlimited and it will only work successfully if all the conditions are met. Smart contracts are used to automate the execution of an agreement so that you can immediately be sure of the result without the participation of an intermediary and loss of time.
 
 3. A script differs from a transaction in that a script is used to view information and can be run by anyone. A transaction changes data in the blockchain (adds, deletes) and it always costs some resources, often a transaction fee.
+
+№ Сhapter 1 day 2
+
+1. The 5 Cadence Programming Language Pillars is: Safety and Security, Clarity, Approachability, Developer Experience, Resource Oriented Programming.
+2. 
