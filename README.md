@@ -7,7 +7,7 @@
 
 3. A script differs from a transaction in that a script is used to view information and can be run by anyone. A transaction changes data in the blockchain (adds, deletes) and it always costs some resources, often a transaction fee.
 
-№ Сhapter 1 day 2
+# Сhapter 1 Day 2
 
 1. The 5 Cadence Programming Language Pillars is: Safety and Security, Clarity, Approachability, Developer Experience, Resource Oriented Programming.
 2. 
