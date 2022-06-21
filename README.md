@@ -27,4 +27,13 @@ pub contract JacobTucker {
 }
 ```
 2. 
-![Screenshot_16](https://user-images.githubusercontent.com/101177946/174672892-1399f2a4-de05-4a2c-8813-3eccaf90696a.jpg)
+![Screenshot_5](https://user-images.githubusercontent.com/101177946/174739558-a79fdd0a-d87c-48c5-9046-412560ed3414.jpg)
+
+```
+import JacobTucker from 0x03
+
+pub fun main(): String {
+    return JacobTucker.is
+}
+
+```
