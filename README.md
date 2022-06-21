@@ -36,3 +36,10 @@ pub fun main(): String {
     return JacobTucker.is
 }
 ```
+
+# Сhapter 2 Day 1
+
+1. We would't call ```changeGreting``` in a script because it's a function. Script only reads and return information on the blochain.
+2. It means that AuthAcc gives ability to read data in the account.|
+3. ```prepare``` phase access information or data in your account while ```execute``` can't do that.  But it can call functions and do stuff to change the data on the blockchain.
+4. 
