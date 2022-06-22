@@ -77,5 +77,3 @@ pub fun main(): Int {
     return HelloWorld.myNumber
 }
 ```
-
-
