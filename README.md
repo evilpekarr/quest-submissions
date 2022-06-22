@@ -43,6 +43,7 @@ pub fun main(): String {
 2. It means that AuthAcc gives ability to read data in the account.|
 3. ```prepare``` phase access information or data in your account while ```execute``` can't do that.  But it can call functions and do stuff to change the data on the blockchain.
 4. 
+Сontract 
 ![image](https://user-images.githubusercontent.com/101177946/175025277-05b50720-7ef7-4966-b6a8-7abb199dedec.png)
 
 ```
@@ -66,9 +67,23 @@ pub contract HelloWorld {
 
 }
 ```
+Transaction
+![image](https://user-images.githubusercontent.com/101177946/175081311-28a8b439-87a1-4608-9a84-c6e241e16d15.png)
 
-![image](https://user-images.githubusercontent.com/101177946/175028564-6e8a6b11-cb9d-454f-9dd1-d21b24fa66ab.png)
+```
+import HelloWorld from 0x01
 
+transaction(myNewNumber: Int) {
+
+  prepare(signer: AuthAccount) {}
+
+  execute {
+    HelloWorld.updateMyNumber(newNumber: myNewNumber)
+  }
+}
+```
+Script w/ results
+![image](https://user-images.githubusercontent.com/101177946/175081213-c1ddff2f-246d-46b4-9422-4737a7063da4.png)
 
 ```
 import HelloWorld from 0x01
