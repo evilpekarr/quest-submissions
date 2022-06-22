@@ -37,9 +37,43 @@ pub fun main(): String {
 }
 ```
 
-# Сhapter 2 Day 1
+# Сhapter 2 Day 2
 
 1. We would't call ```changeGreting``` in a script because it's a function. Script only reads and return information on the blochain.
 2. It means that AuthAcc gives ability to read data in the account.|
 3. ```prepare``` phase access information or data in your account while ```execute``` can't do that.  But it can call functions and do stuff to change the data on the blockchain.
 4. 
+![image](https://user-images.githubusercontent.com/101177946/175025277-05b50720-7ef7-4966-b6a8-7abb199dedec.png)
+
+```pub contract HelloWorld {
+
+    pub var greeting: String
+    pub var myNumber: Int
+
+    pub fun changeGreeting(newGreeting: String) {
+        self.greeting = newGreeting
+    }
+  
+    pub fun updateMyNumber(newNumber: Int){
+        self.myNumber = newNumber
+    }
+
+    init() {
+        self.greeting = "Hello, World!"
+        self.myNumber = 0
+    }
+
+}
+```
+
+![image](https://user-images.githubusercontent.com/101177946/175028564-6e8a6b11-cb9d-454f-9dd1-d21b24fa66ab.png)
+
+
+```import HelloWorld from 0x01
+
+pub fun main(): Int {
+    return HelloWorld.myNumber
+}
+```
+
+
