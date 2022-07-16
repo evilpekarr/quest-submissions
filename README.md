@@ -92,3 +92,10 @@ pub fun main(): Int {
     return HelloWorld.myNumber
 }
 ```
+
+# Сhapter 2 Day 3
+
+Task 1
+
+```
+
