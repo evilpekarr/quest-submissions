@@ -95,7 +95,31 @@ pub fun main(): Int {
 
 # Сhapter 2 Day 3
 
-Task 1
+Task 1+2
 
 ```
+pub fun main(){
 
+var favPeople: [String] = ["Alex", "Ira", "Luda"]
+var socialMedia: {String : UInt64} = {"Instagram" : 1, "YouTube" : 2, "Twitter" : 3, "Facebook" : 4, "Linkedin" : 0}
+
+log(favPeople)
+}
+```
+Task 3
+
+```
+// Declare an Optional Type. This type can either be UInt64 or Nil.
+var building: String? = "House"
+
+var whatBuilding: UInt64 = nil! 
+```
+Task 4
+
+So the Eror message "mismatched types. expected String got String" means that it expecting that String type to be returned but we are getting String? or nil
+The function is expecting string to be returned
+It can be fixed in two ways
+1. Changing String to String?
+2. We can add force unwrap operrator at the end in retutn staytment.
+![image](https://user-images.githubusercontent.com/101177946/180314317-f14d210b-69ea-4e20-93c0-4baf28b7429e.png)
+![image](https://user-images.githubusercontent.com/101177946/180314351-cad74b72-d585-45a4-b48f-bf5e5529c650.png)
