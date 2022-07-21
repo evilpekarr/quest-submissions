@@ -116,9 +116,9 @@ var whatBuilding: UInt64 = nil!
 ```
 Task 4
 
-So the Eror message "mismatched types. expected String got String" means that it expecting that String type to be returned but we are getting String? or nil
-The function is expecting string to be returned
-It can be fixed in two ways
+- So the Eror message "mismatched types. expected String got String" means that it expecting that String type to be returned but we are getting String? or nil
+- The function is expecting string to be returned
+- It can be fixed in two ways
 1. Changing String to String?
 2. We can add force unwrap operrator at the end in retutn staytment.
 ![image](https://user-images.githubusercontent.com/101177946/180314317-f14d210b-69ea-4e20-93c0-4baf28b7429e.png)
