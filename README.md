@@ -124,6 +124,14 @@ Task 4
 ![image](https://user-images.githubusercontent.com/101177946/180314317-f14d210b-69ea-4e20-93c0-4baf28b7429e.png)
 ![image](https://user-images.githubusercontent.com/101177946/180314351-cad74b72-d585-45a4-b48f-bf5e5529c650.png)
 
+Chaper 2 Day 4
+
+
+
+
+
+
+
 # Chapter 3 Day 1
 
 1. 
