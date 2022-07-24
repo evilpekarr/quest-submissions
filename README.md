@@ -123,3 +123,34 @@ Task 4
 2. We can add force unwrap operrator at the end in retutn staytment.
 ![image](https://user-images.githubusercontent.com/101177946/180314317-f14d210b-69ea-4e20-93c0-4baf28b7429e.png)
 ![image](https://user-images.githubusercontent.com/101177946/180314351-cad74b72-d585-45a4-b48f-bf5e5529c650.png)
+
+# Chapter 3 Day 1
+
+1. 
+- Resources ONLY exist in one location at a time, must be used exactly once;
+- Must be crated by using the ```create``` word;
+- At the end of the function, resources must be moved either destroyed.
+
+2. 
+
+3. The keyword is ```create```
+4. No, ```create``` can be used only inside the conract
+5. Type of resource is Jacob
+6. How to fix this contract:
+
+```
+pub contract Test {
+
+    pub resource Jacob {
+        pub let rocks: Bool
+        init() {
+            self.rocks = true
+        }
+    }
+
+    pub fun createJacob(): @Jacob {
+        let myJacob <- create Jacob() 
+        return <- myJacob 
+    }
+}
+```
